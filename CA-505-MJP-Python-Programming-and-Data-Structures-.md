@@ -1,673 +1,4 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
-# CA-505-MJP-Python-Programming-and-Data-Structures-1-1.pdf
-
-The file "CA-505-MJP-Python-Programming-and-Data-Structures-1-1.pdf" contains the Savitribai Phule Pune University M.Sc. Computer Application Sem-I Practical Examination 2023 pattern for the subject CA 505 MJP, which is based on Python Programming and Data Structures.[^1_1]
-
-### Key Contents
-
-- The document lists practical examination slips (at least 25), each with:
-    - Python programming problems or data structure operations (e.g., working with lists, sets, arrays, dictionaries, tuples, stacks, queues, trees, linked lists, graphs, sorting algorithms)
-    - Each slip contains typically two main programming challenges and a viva section, summing up to 35 marks per slip
-    - Many problems involve core Python operations and data structure manipulations like insertions, deletions, traversals, searches, sorting algorithms, object-oriented implementations, and use of standard and user-defined functions
-
-
-### Notable Example Problems
-
-- Calculating averages, factorials, Fibonacci, and sum of lists
-- Working with Binary Search Tree (BST): insert, display, search, traversal, count nodes/leaves
-- Array and list manipulations: reversing, searching (linear and binary), counting occurrences
-- Linked List operations (singly, doubly, static, dynamic)
-- Sorting algorithms: Bubble Sort, Quick Sort, Merge Sort, Insertion Sort
-- Dictionary operations: generating, sorting, merging, manipulating values/keys
-- Graphs: finding in-degree, out-degree via adjacency matrix
-- Stack, queue (static/dynamic), and priority queue implementations
-- Tuple manipulations and pattern printing
-- Object-oriented tasks: defining classes for Circle, Rectangle, Shopping Cart, etc.
-
-This file serves as a complete practical/problem set for a semester exam in Python programming and foundational data structures. If detailed solution sets, explanations, or code samples for specific slips/questions are needed, please specify the slip or topic of interest.[^1_1]
-
-<div align="center">⁂</div>
-
-[^1_1]: CA-505-MJP-Python-Programming-and-Data-Structures-1-1.pdf
-
-
----
-
-# give a prompt for geting solutions fpr all question with output syntax defination a d aproach
-
-Use the following prompt to systematically obtain solutions for all programming and data structure questions, including function definitions, output syntax, and approach explanations:
-
-***
-
-**Prompt for Solution Generation**
-
-For each question from the CA-505 MJP Python Programming and Data Structures exam slips, provide the following details in order:
-
-1. **Approach Explanation**
-    - Briefly explain the logic and steps to solve the problem, suitable for a student audience.
-    - Highlight any key data structures, algorithms, or Python concepts used.
-2. **Python Function Definition**
-    - Write the Python code as a function wherever appropriate, using `def` syntax.
-    - Ensure code is clear, well-commented, and uses meaningful variable names.
-3. **Sample Input and Output**
-    - Show at least one example of input and the corresponding output for the program or function.
-4. **Expected Output Format**
-    - Specify how outputs should be printed or returned (e.g., "Print the list on separate lines," "Return an integer value").
-
-**Format each solution with the following structure:**
-
-```
-### Question X: [Restate the question]
-
-#### Approach:
-[Short explanation—one paragraph or bullet points]
-
-#### Python Solution:
-```
-
-[Python code]
-
-```
-
-#### Sample Input and Output:
-Input: [example input]
-Output: [example output]
-
-#### Output Format:
-[Short note—how output should be presented]
-```
-
-
-***
-
-This will yield comprehensive, student-friendly solutions with clear logic, code, and expected behavior for each problem.
-<span style="display:none">[^2_1][^2_10][^2_2][^2_3][^2_4][^2_5][^2_6][^2_7][^2_8][^2_9]</span>
-
-<div align="center">⁂</div>
-
-[^2_1]: https://www.w3resource.com/python-exercises/
-
-[^2_2]: https://www.geeksforgeeks.org/python/python-programming-examples/
-
-[^2_3]: https://www.codechef.com/practice/python
-
-[^2_4]: https://dscet.ac.in/questionbank/science/first-sem/GE8151-PYTHON.pdf
-
-[^2_5]: https://realpython.com/python-practice-problems/
-
-[^2_6]: https://inventwithpython.com/PythonProgrammingExercisesGentlyExplained.pdf
-
-[^2_7]: https://www.hackerrank.com/domains/python
-
-[^2_8]: https://github.com/darkprinx/break-the-ice-with-python
-
-[^2_9]: https://www.msajce-edu.in/academics/sh/LectureNote/GE3151-LN.pdf
-
-[^2_10]: https://www.sanfoundry.com/python-problems-solutions/
-
-
----
-
-# For each question from the CA-505 MJP Python Programming and Data Structures exam slips, provide the following details in order:
-
-Approach Explanation
-Briefly explain the logic and steps to solve the problem, suitable for a student audience.
-Highlight any key data structures, algorithms, or Python concepts used.
-Python Function Definition
-Write the Python code as a function wherever appropriate, using def syntax.
-Ensure code is clear, well-commented, and uses meaningful variable names.
-Sample Input and Output
-Show at least one example of input and the corresponding output for the program or function.
-Expected Output Format
-Specify how outputs should be printed or returned (e.g., "Print the list on separate lines," "Return an integer value").
-
-Great! Let’s work together on systematically producing solutions for the CA-505 MJP Python Programming and Data Structures exam slips using your requested format. Here’s how we’ll proceed for each question:
-
-***
-
-### Solution Format for Each Question
-
-1. **Approach Explanation**
-    - Briefly explain the problem-solving logic and main steps, connecting to student-friendly data structures, algorithms, and relevant Python concepts.
-2. **Python Function Definition**
-    - Write clear, commented code using `def` syntax with descriptive variable names, aiming for readability and correctness.
-3. **Sample Input and Output**
-    - Provide at least one sample input example and its expected output.
-4. **Expected Output Format**
-    - Specify the required way to print or return results (e.g., line-by-line, single integer, etc).
-
-***
-
-Let’s start with your first specific question or slip. Please copy the text of the first question here, or let me know which slip you want to begin with. We’ll walk through it step by step: I’ll help clarify the approach and guide you in implementing the function before we move on to sample inputs and output formats.
-
-Which slip or specific question should we tackle first?
-
----
-
 # slip 1
-
-Here are the detailed solutions for Slip 1 from the CA-505 MJP Python Programming and Data Structures exam:
-
-***
-
-### Question 1: Write a Python Program to Calculate the Average of Numbers in a List
-
-#### Approach:
-
-- Accept a list of numbers from the user.
-- Add all numbers using a loop or the built-in `sum()` function.
-- Divide the total sum by the number of elements (using `len()`).
-- Print the computed average as a float.
-
-
-#### Python Solution:
-
-```python
-def calculate_average(numbers):
-    """
-    Calculates the average of numbers in a list.
-    :param numbers: List of numeric values
-    :return: Float average value
-    """
-    if len(numbers) == 0:
-        return 0.0
-    total = sum(numbers)
-    average = total / len(numbers)
-    return average
-
-# Example usage:
-nums = [10, 20, 30, 40, 50]
-print("Average:", calculate_average(nums))
-```
-
-
-#### Sample Input and Output:
-
-Input: `[10][20][30][40][50]`
-Output: `Average: 30.0`
-
-#### Output Format:
-
-Print the result with an appropriate label, e.g., `Average: 30.0`.
-
-***
-
-### Question 2 (Option 1): Write a Python Program to Perform BST Operations: Insert, Display
-
-#### Approach:
-
-- Define a `Node` class for tree nodes.
-- Implement a `BST` class with methods: `insert` (to add nodes) and `display` (inorder traversal to print values in order).
-- Create BST, insert elements, and use inorder traversal for sorted display.
-
-
-#### Python Solution:
-
-```python
-class Node:
-    def __init__(self, data):
-        self.data = data
-        self.left = None
-        self.right = None
-
-class BST:
-    def __init__(self):
-        self.root = None
-
-    def insert(self, data):
-        if self.root is None:
-            self.root = Node(data)
-        else:
-            self._insert(self.root, data)
-        
-    def _insert(self, node, data):
-        if data < node.data:
-            if node.left is None:
-                node.left = Node(data)
-            else:
-                self._insert(node.left, data)
-        else:
-            if node.right is None:
-                node.right = Node(data)
-            else:
-                self._insert(node.right, data)
-
-    def display(self):
-        self._inorder(self.root)
-    
-    def _inorder(self, node):
-        if node:
-            self._inorder(node.left)
-            print(node.data, end=' ')
-            self._inorder(node.right)
-
-# Example usage:
-bst = BST()
-elements = [40, 20, 60, 10, 30, 50, 70]
-for elem in elements:
-    bst.insert(elem)
-print("BST inorder display:", end=' ')
-bst.display()
-```
-
-
-#### Sample Input and Output:
-
-Input: `[40][20][60][10][30][50][70]`
-Output: `BST inorder display: 10 20 30 40 50 60 70`
-
-#### Output Format:
-
-Display elements space-separated, in sorted (inorder) sequence.
-
-***
-
-### Question 2 (Option 2): Python Program to Merge Two Sorted Linked Lists
-
-#### Approach:
-
-- Define a `Node` class for list nodes.
-- Merge two sorted linked lists by comparing current elements and building a new sorted list.
-
-
-#### Python Solution:
-
-```python
-class Node:
-    def __init__(self, data):
-        self.data = data
-        self.next = None
-
-def merge_sorted_lists(head1, head2):
-    dummy = Node(0)
-    tail = dummy
-    while head1 and head2:
-        if head1.data < head2.data:
-            tail.next = head1
-            head1 = head1.next
-        else:
-            tail.next = head2
-            head2 = head2.next
-        tail = tail.next
-    tail.next = head1 or head2
-    return dummy.next
-
-def print_list(head):
-    while head:
-        print(head.data, end=' ')
-        head = head.next
-
-# Example usage:
-# Create first sorted list: 1->3->5
-a1 = Node(1)
-a2 = Node(3)
-a3 = Node(5)
-a1.next = a2
-a2.next = a3
-
-# Create second sorted list: 2->4->6
-b1 = Node(2)
-b2 = Node(4)
-b3 = Node(6)
-b1.next = b2
-b2.next = b3
-
-merged_head = merge_sorted_lists(a1, b1)
-print("Merged linked list:", end=' ')
-print_list(merged_head)
-```
-
-
-#### Sample Input and Output:
-
-Input Lists: `1 3 5` and `2 4 6`
-Output: `Merged linked list: 1 2 3 4 5 6`
-
-#### Output Format:
-
-Print merged list elements, space-separated.
-
-***
-
-### Question 3: Viva
-
-No specific code required; this is typically an oral component.
-
-***
-
-Let me know if you want solutions for another slip or further details on any answer above!
-
----
-
-# give syntax definatiosn as well with diagram
-
-Let's enhance the solutions for **Slip 1** by including:
-
-- **Syntax definitions** for key Python constructs used
-- **Text-based diagrams** to illustrate data structures (since visuals can't be rendered here)
-
-***
-
-## Question 1: Calculate the Average of Numbers in a List
-
-### Approach
-
-- Accept a list of numbers.
-- Use Python's built-in functions (`sum()`, `len()`) to compute the average.
-- Print the result.
-
-
-### Syntax Definitions
-
-- **Function Definition:**
-
-```python
-def function_name(parameters):
-    # function body
-```
-
-- **List:**
-
-```python
-numbers = [10, 20, 30]
-```
-
-- **sum() and len():**
-
-```python
-total = sum(numbers)
-count = len(numbers)
-```
-
-
-### Python Solution
-
-```python
-def calculate_average(numbers):
-    """Calculates the average of numbers in a list."""
-    if len(numbers) == 0:
-        return 0.0
-    total = sum(numbers)
-    average = total / len(numbers)
-    return average
-
-# Example usage:
-nums = [10, 20, 30, 40, 50]
-print("Average:", calculate_average(nums))
-```
-
-
-### Sample Input and Output
-
-Input: `[10][20][30][40][50]`
-
-Output: `Average: 30.0`
-
-### Output Format
-
-Print the result as: `Average: <value>`
-
-***
-
-## Question 2: Perform BST Operations: Insert, Display
-
-### Approach
-
-- Create a **Node** class for each tree node.
-- Create a **BST** class to manage the tree.
-- Use **inorder traversal** to display the BST in sorted order.
-
-
-### Syntax Definitions
-
-- **Class Definition:**
-
-```python
-class ClassName:
-    def __init__(self, parameters):
-        # constructor body
-```
-
-- **Object Creation:**
-
-```python
-obj = ClassName(arguments)
-```
-
-- **Recursion:**
-A function calling itself to traverse the tree.
-
-
-### Text-Based Diagram: BST Example
-
-Suppose you insert: 40, 20, 60, 10, 30, 50, 70
-
-```
-        40
-       /  \
-     20    60
-    / \   / \
-  10 30 50 70
-```
-
-
-### Python Solution
-
-```python
-class Node:
-    def __init__(self, data):
-        self.data = data
-        self.left = None
-        self.right = None
-
-class BST:
-    def __init__(self):
-        self.root = None
-
-    def insert(self, data):
-        if self.root is None:
-            self.root = Node(data)
-        else:
-            self._insert(self.root, data)
-    
-    def _insert(self, node, data):
-        if data < node.data:
-            if node.left is None:
-                node.left = Node(data)
-            else:
-                self._insert(node.left, data)
-        else:
-            if node.right is None:
-                node.right = Node(data)
-            else:
-                self._insert(node.right, data)
-
-    def display(self):
-        self._inorder(self.root)
-    
-    def _inorder(self, node):
-        if node:
-            self._inorder(node.left)
-            print(node.data, end=' ')
-            self._inorder(node.right)
-
-# Example usage:
-bst = BST()
-elements = [40, 20, 60, 10, 30, 50, 70]
-for elem in elements:
-    bst.insert(elem)
-print("BST inorder display:", end=' ')
-bst.display()
-```
-
-
-### Sample Input and Output
-
-Input: `[40][20][60][10][30][50][70]`
-
-Output: `BST inorder display: 10 20 30 40 50 60 70`
-
-### Output Format
-
-Print the elements in sorted order, space-separated.
-
-***
-
-## Question 2 (Alternate): Merge Two Sorted Linked Lists
-
-### Approach
-
-- Define a **Node** class for linked list nodes.
-- Merge two sorted lists by comparing node values and building a new list.
-
-
-### Syntax Definitions
-
-- **Linked List Node:**
-
-```python
-class Node:
-    def __init__(self, data):
-        self.data = data
-        self.next = None
-```
-
-- **While Loop:**
-
-```python
-while condition:
-    # loop body
-```
-
-
-### Text-Based Diagram: Merging Lists
-
-List 1: 1 → 3 → 5
-List 2: 2 → 4 → 6
-Merged: 1 → 2 → 3 → 4 → 5 → 6
-
-### Python Solution
-
-```python
-class Node:
-    def __init__(self, data):
-        self.data = data
-        self.next = None
-
-def merge_sorted_lists(head1, head2):
-    dummy = Node(0)
-    tail = dummy
-    while head1 and head2:
-        if head1.data < head2.data:
-            tail.next = head1
-            head1 = head1.next
-        else:
-            tail.next = head2
-            head2 = head2.next
-        tail = tail.next
-    tail.next = head1 or head2
-    return dummy.next
-
-def print_list(head):
-    while head:
-        print(head.data, end=' ')
-        head = head.next
-
-# Example usage:
-# Create first sorted list: 1->3->5
-a1 = Node(1)
-a2 = Node(3)
-a3 = Node(5)
-a1.next = a2
-a2.next = a3
-
-# Create second sorted list: 2->4->6
-b1 = Node(2)
-b2 = Node(4)
-b3 = Node(6)
-b1.next = b2
-b2.next = b3
-
-merged_head = merge_sorted_lists(a1, b1)
-print("Merged linked list:", end=' ')
-print_list(merged_head)
-```
-
-
-### Sample Input and Output
-
-Input Lists: `1 3 5` and `2 4 6`
-
-Output: `Merged linked list: 1 2 3 4 5 6`
-
-### Output Format
-
-Print merged list elements, space-separated.
-
-***
-
-If you need more detailed diagrams or want to proceed to the next slip, let me know!
-
----
-
-# follow thias fpoemat for cpode
-
-Understood! For all further code solutions, I will strictly follow this standardized format:
-
-***
-
-### Question X: [Restate the Question]
-
-#### Approach
-
-- [Brief, stepwise explanation of the logic and method]
-
-
-#### Syntax Definitions
-
-- `[List out any important Python syntax used]`
-
-
-#### Diagram (Text-based)
-
-- `[If a diagram helps, show a simple ASCII/text diagram of data structure or flow]`
-
-
-#### Python Code
-
-```python
-# Functionality: [Short, one-line comment on what the function/program does]
-def function_name(parameters):
-    """[Docstring: what the function does]"""
-    # [Step-by-step code, with clear comments]
-    pass
-
-# Example: [How to call the function]
-inputs = [...]  # Example input data
-print(function_name(inputs))  # or detailed output formatting as required
-```
-
-
-#### Sample Input and Output
-
-Input: `[Show an example input]`
-
-Output: `[Show the corresponding output]`
-
-#### Output Format
-
-[Instructions on how final results should be printed or returned.]
-
-***
-
-If you want to start with a specific question or slip, or want me to demonstrate this template on the next slip or another problem, let me know!
-
----
-
-# slip 1
-
-Here are the Slip 1 solutions, formatted according to your requested code template:
 
 ***
 
@@ -719,10 +50,6 @@ print("Average:", calculate_average(nums))
 
 Input: `[10][20][30][40][50]`
 Output: `Average: 30.0`
-
-#### Output Format
-
-Print: `Average: <value>`
 
 ***
 
@@ -811,11 +138,6 @@ bst.display()
 Input: `[40][20][60][10][30][50][70]`
 Output: `BST inorder display: 10 20 30 40 50 60 70`
 
-#### Output Format
-
-Print elements space-separated, in sorted (inorder) order.
-
-***
 
 ### Question 2 (Option 2): Python Program to Merge Two Sorted Linked Lists
 
@@ -893,774 +215,10 @@ print_list(merged_head)
 Input Lists: `1 3 5` and `2 4 6`
 Output: `Merged linked list: 1 2 3 4 5 6`
 
-#### Output Format
-
-Print merged list elements, space-separated.
-
-***
-
-If you want this for other slips or questions, just say the slip number!
-
----
-
-# slip 2
-
-Here are the detailed solutions for **Slip 2** in the requested format:
-
-***
-
-### Question 1: Write a program which accepts 6 integer values and prints DUPLICATES if any of the values entered are duplicates, otherwise it prints ALL UNIQUE.
-
-#### Approach
-
-- Input 6 integers and store in a list.
-- Use a set (which contains only unique elements) to detect duplicates.
-- If the length of the set is less than 6, there are duplicates; otherwise, all values are unique.
-
-
-#### Syntax Definitions
-
-- **List and Set:** `numbers = [value1, value2, ...]`, `unique = set(numbers)`
-- **Input:** `int(input("Enter value: "))`
-- **Conditional Statement:** `if ... else ...`
-
-
-#### Diagram (Text-based)
-
-Example:
-Input values: `[32][10][45][90][45][6]`
-Set: `{32, 10, 45, 90, 6}`
-(len = 5 < 6) → DUPLICATES detected
-
-#### Python Code
-
-```python
-# Functionality: Checks for duplicates among six entered integers.
-def check_duplicates(numbers):
-    """
-    Checks if duplicates exist in a list of six integers.
-    :param numbers: List of six integer values
-    :return: String "DUPLICATES" or "ALL UNIQUE"
-    """
-    unique_numbers = set(numbers)
-    if len(unique_numbers) < 6:
-        return "DUPLICATES"
-    else:
-        return "ALL UNIQUE"
-
-# Example usage
-nums = [32, 10, 45, 90, 45, 6]
-print(check_duplicates(nums))
-```
-
-
-#### Sample Input and Output
-
-Input: `[32][10][45][90][45][6]`
-Output: `DUPLICATES`
-
-#### Output Format
-
-Print either `DUPLICATES` or `ALL UNIQUE` (in uppercase).
-
-***
-
-### Question 2: Write a python program to reverse the list and print both original and reversed lists using lists.
-
-#### Approach
-
-- Accept a list of numbers from the user.
-- Use list slicing (`[::-1]`) or the `reverse()` method to get the reversed list.
-- Print both the original and reversed lists.
-
-
-#### Syntax Definitions
-
-- **List Slicing:** `reversed_list = original_list[::-1]`
-- **Print List:** `print(list_name)`
-
-
-#### Diagram (Text-based)
-
-Original: `[1][2][3][4][5]`
-Reversed: `[5][4][3][2][1]`
-
-#### Python Code
-
-```python
-# Functionality: Reverses a list and prints both original and reversed lists.
-def reverse_list(lst):
-    """
-    Prints the original and reversed lists.
-    :param lst: List of integers
-    :return: None
-    """
-    print("Original list:", lst)
-    reversed_lst = lst[::-1]  # List slicing for reversal
-    print("Reversed list:", reversed_lst)
-
-# Example usage
-numbers = [1, 2, 3, 4, 5]
-reverse_list(numbers)
-```
-
-
-#### Sample Input and Output
-
-Input: `[1][2][3][4][5]`
-Output:
-
-```
-Original list: [1, 2, 3, 4, 5]
-Reversed list: [5, 4, 3, 2, 1]
-```
-
-
-#### Output Format
-
-Print both lists with clear labels.
-
-***
-
-If you need code for other slips or want variations with user input handling, let me know!
-
----
-
-# Q2 both options
-
-Here are Slip 2, Question 2 solutions for **both options**, formatted as requested:
-
-***
-
-### Question 2 (Option 1): Write a python program to reverse the list and print both original and reversed lists using lists.
-
-#### Approach
-
-- Accept and store the original list.
-- Use list slicing (`[::-1]`) to reverse the list.
-- Display both lists.
-
-
-#### Syntax Definitions
-
-- **List Slicing:** `reversed_list = original_list[::-1]`
-- **Function Definition:** `def reverse_list(lst):`
-
-
-#### Diagram (Text-based)
-
-```
-Original: [1, 2, 3, 4, 5]
-Reversed: [5, 4, 3, 2, 1]
-```
-
-
-#### Python Code
-
-```python
-# Functionality: Reverses a list and prints both original and reversed lists.
-def reverse_list(lst):
-    """
-    Prints the original and reversed lists.
-    :param lst: List of integers
-    :return: None
-    """
-    print("Original list:", lst)
-    reversed_lst = lst[::-1]  # Reversing using slicing
-    print("Reversed list:", reversed_lst)
-
-# Example usage:
-numbers = [1, 2, 3, 4, 5]
-reverse_list(numbers)
-```
-
-
-#### Sample Input and Output
-
-Input: `[1][2][3][4][5]`
-Output:
-
-```
-Original list: [1, 2, 3, 4, 5]
-Reversed list: [5, 4, 3, 2, 1]
-```
-
-
-#### Output Format
-
-Print both lists, clearly labeled.
-
-***
-
-### Question 2 (Option 2): Write a python program to count and display the total number of vowels, consonants, digits, and special characters in a string.
-
-#### Approach
-
-- Input a string.
-- Loop through each character: check if it is a vowel, consonant, digit, or special character.
-- Use string and character functions (`isalpha()`, `isdigit()`, membership in set of vowels).
-- Maintain counters for each category and print totals.
-
-
-#### Syntax Definitions
-
-- **String Membership:** `'char' in 'aeiouAEIOU'`
-- **isdigit():** `char.isdigit()`
-- **isalpha():** `char.isalpha()`
-
-
-#### Diagram (Text-based)
-
-Example string: `"Hello@2021!"`
-
-
-| Char | Type |
-| :-- | :-- |
-| H | Consonant |
-| e | Vowel |
-| l | Consonant |
-| l | Consonant |
-| o | Vowel |
-| @ | Special |
-| 2 | Digit |
-| 0 | Digit |
-| 2 | Digit |
-| 1 | Digit |
-| ! | Special |
-
-#### Python Code
-
-```python
-# Functionality: Counts vowels, consonants, digits, and special characters in a string.
-def count_types(s):
-    """
-    Counts vowels, consonants, digits, and special characters in a string.
-    :param s: Input string
-    :return: None (prints counts)
-    """
-    vowels = "aeiouAEIOU"
-    v_count = c_count = d_count = s_count = 0
-    for char in s:
-        if char.isalpha():
-            if char in vowels:
-                v_count += 1
-            else:
-                c_count += 1
-        elif char.isdigit():
-            d_count += 1
-        else:
-            s_count += 1
-    print("Vowels:", v_count)
-    print("Consonants:", c_count)
-    print("Digits:", d_count)
-    print("Special Characters:", s_count)
-
-# Example usage:
-input_str = "Hello@2021!"
-count_types(input_str)
-```
-
-
-#### Sample Input and Output
-
-Input: `"Hello@2021!"`
-Output:
-
-```
-Vowels: 2
-Consonants: 3
-Digits: 4
-Special Characters: 2
-```
-
-
-#### Output Format
-
-Print the category counts, each on a new line with labels.
-
-***
-
-If you want further explanations, other questions, or another slip, just ask!
-
----
-
-# slip 2
-
-Here are both questions from **Slip 2**, formatted according to your requested template:
-
-***
-
-### Question 1: Write a program which accepts 6 integer values and prints DUPLICATES if any of the values entered are duplicates, otherwise it prints ALL UNIQUE.
-
-#### Approach
-
-- Store 6 entered values in a list.
-- Convert list to a set; sets keep only unique values.
-- If the size of the set is less than 6, there is at least one duplicate.
-
-
-#### Syntax Definitions
-
-- **List:** `numbers = [val1, val2, ...]`
-- **Set:** `unique = set(numbers)`
-- **Conditional:** `if ... else ...`
-- **Input:** `int(input("Enter value: "))`
-
-
-#### Diagram (Text-based)
-
-Example Input: `[32][10][45][90][45][6]`
-Set: `{32, 10, 45, 90, 6}`
-Length check: `len(set) < 6 → DUPLICATES`
-
-#### Python Code
-
-```python
-# Functionality: Checks for duplicates among six entered integers.
-def check_duplicates(numbers):
-    """
-    Checks if duplicates exist in a list of six integers.
-    :param numbers: List of six integer values
-    :return: String "DUPLICATES" or "ALL UNIQUE"
-    """
-    unique_numbers = set(numbers)
-    if len(unique_numbers) < 6:
-        return "DUPLICATES"
-    else:
-        return "ALL UNIQUE"
-
-# Example usage
-nums = [32, 10, 45, 90, 45, 6]
-print(check_duplicates(nums))
-```
-
-
-#### Sample Input and Output
-
-Input: `[32][10][45][90][45][6]`
-Output: `DUPLICATES`
-
-#### Output Format
-
-Print either `DUPLICATES` or `ALL UNIQUE` (uppercase).
-
-***
-
-### Question 2: Write a python program to reverse the list and print both original and reversed lists using lists.
-
-#### Approach
-
-- Input and store the original list.
-- Reverse the list using slicing (`[::-1]`) or the `reverse()` method.
-- Print the original and the reversed lists.
-
-
-#### Syntax Definitions
-
-- **List Slicing:** `reversed_list = original_list[::-1]`
-- **Print:** `print(list_name)`
-
-
-#### Diagram (Text-based)
-
-Original: `[1][2][3][4][5]`
-Reversed: `[5][4][3][2][1]`
-
-#### Python Code
-
-```python
-# Functionality: Reverses a list and prints both original and reversed lists.
-def reverse_list(lst):
-    """
-    Prints the original and reversed lists.
-    :param lst: List of integers
-    :return: None
-    """
-    print("Original list:", lst)
-    reversed_lst = lst[::-1]
-    print("Reversed list:", reversed_lst)
-
-# Example usage
-numbers = [1, 2, 3, 4, 5]
-reverse_list(numbers)
-```
-
-
-#### Sample Input and Output
-
-Input: `[1][2][3][4][5]`
-Output:
-
-```
-Original list: [1, 2, 3, 4, 5]
-Reversed list: [5, 4, 3, 2, 1]
-```
-
-
-#### Output Format
-
-Print both lists with labels as above.
-
-***
-
-If you need another slip or Q2's alternate option for Slip 2 (if applicable by exam paper), let me know!
-
----
-
-# Q2 both are applicable for Exame
-
-Here are both options for **Slip 2, Question 2**, following your standardized code format:
-
-***
-
-### Question 2 (Option 1): Write a python program to reverse the list and print both original and reversed lists using lists.
-
-#### Approach
-
-- Input a list of numbers.
-- Use slicing (`[::-1]`) to reverse the list.
-- Print both the original and the reversed list with labels.
-
-
-#### Syntax Definitions
-
-- **List Slicing:** `reversed_list = original_list[::-1]`
-- **Function Definition:** `def function_name(params):`
-- **Print Statement:** `print(list_name)`
-
-
-#### Diagram (Text-based)
-
-Original: `[1][2][3][4][5]`
-Reversed: `[5][4][3][2][1]`
-
-#### Python Code
-
-```python
-# Functionality: Reverses a list and prints both original and reversed lists.
-def reverse_list(lst):
-    """
-    Prints the original and reversed lists.
-    :param lst: List of integers
-    :return: None
-    """
-    print("Original list:", lst)
-    reversed_lst = lst[::-1]
-    print("Reversed list:", reversed_lst)
-
-# Example usage
-numbers = [1, 2, 3, 4, 5]
-reverse_list(numbers)
-```
-
-
-#### Sample Input and Output
-
-Input: `[1][2][3][4][5]`
-Output:
-
-```
-Original list: [1, 2, 3, 4, 5]
-Reversed list: [5, 4, 3, 2, 1]
-```
-
-
-#### Output Format
-
-Print both lists clearly labeled as shown.
-
-***
-
-### Question 2 (Option 2): Write a python program to count and display the total number of vowels, consonants, digits, and special characters in a string.
-
-#### Approach
-
-- Read an input string.
-- Loop through each character and use `isalpha()`, `isdigit()`, and membership testing to check its type.
-- Count the number of vowels, consonants, digits, and special characters.
-
-
-#### Syntax Definitions
-
-- **isalpha():** Checks if character is a letter.
-- **isdigit():** Checks if character is a digit.
-- **Membership Test:** `char in 'aeiouAEIOU'`
-- **For Loop:** `for char in string:`
-
-
-#### Diagram (Text-based)
-
-Example: `"Hello@2021!"`
-Vowels: `e, o` (2)
-Consonants: `H, l, l` (3)
-Digits: `2, 0, 2, 1` (4)
-Special Characters: `@, !` (2)
-
-#### Python Code
-
-```python
-# Functionality: Counts vowels, consonants, digits, and special characters in a string.
-def count_types(s):
-    """
-    Counts vowels, consonants, digits, and special characters in a string.
-    :param s: Input string
-    :return: None (prints counts)
-    """
-    vowels = "aeiouAEIOU"
-    v_count = c_count = d_count = s_count = 0
-    for char in s:
-        if char.isalpha():
-            if char in vowels:
-                v_count += 1
-            else:
-                c_count += 1
-        elif char.isdigit():
-            d_count += 1
-        else:
-            s_count += 1
-    print("Vowels:", v_count)
-    print("Consonants:", c_count)
-    print("Digits:", d_count)
-    print("Special Characters:", s_count)
-
-# Example usage
-input_str = "Hello@2021!"
-count_types(input_str)
-```
-
-
-#### Sample Input and Output
-
-Input: `"Hello@2021!"`
-Output:
-
-```
-Vowels: 2
-Consonants: 3
-Digits: 4
-Special Characters: 2
-```
-
-
-#### Output Format
-
-Print each category count on a new line with labels as shown above.
-
-***
-
-Both options are suitable for examination use. If you need more slips or details, just specify!
-
----
-
-# solve full slip 2
-
-Here are the full solutions for **Slip 2** of the CA-505 MJP Python Programming and Data Structures exam:
-
-***
-
-### Question 1: Write a program which accepts 6 integer values and prints DUPLICATES if any of the values entered are duplicates otherwise it prints ALL UNIQUE.
-
-#### Approach
-
-- Input 6 integers and store in a list.
-- Convert the list to a set (removes duplicates).
-- If the size of the set is less than 6, there is at least one duplicate; otherwise all values are unique.
-
-
-#### Syntax Definitions
-
-- **List:** `numbers = [val1, val2, ...]`
-- **Set:** `unique = set(numbers)`
-- **Conditional:** `if ... else ...`
-- **Input:** `int(input("Enter value: "))`
-
-
-#### Diagram (Text-based)
-
-Input values: `[32][10][45][90][45][6]`
-Set: `{32, 10, 45, 90, 6}`
-Length check: `len(set) < 6 → DUPLICATES`
-
-#### Python Code
-
-```python
-# Functionality: Checks for duplicates among six entered integers.
-def check_duplicates(numbers):
-    """
-    Checks if duplicates exist in a list of six integers.
-    :param numbers: List of six integer values
-    :return: String "DUPLICATES" or "ALL UNIQUE"
-    """
-    unique_numbers = set(numbers)
-    if len(unique_numbers) < 6:
-        return "DUPLICATES"
-    else:
-        return "ALL UNIQUE"
-
-# Example usage
-nums = [32, 10, 45, 90, 45, 6]
-print(check_duplicates(nums))
-```
-
-
-#### Sample Input and Output
-
-Input: `[32][10][45][90][45][6]`
-Output: `DUPLICATES`
-
-#### Output Format
-
-Print either `DUPLICATES` or `ALL UNIQUE` (uppercase).
-
-***
-
-### Question 2 (Option 1): Write a python program to reverse the list and print both original and reversed lists using lists.
-
-#### Approach
-
-- Input a list of numbers.
-- Use slicing (`[::-1]`) to reverse the list.
-- Print both the original and the reversed list with labels.
-
-
-#### Syntax Definitions
-
-- **List Slicing:** `reversed_list = original_list[::-1]`
-- **Function Definition:** `def function_name(params):`
-- **Print Statement:** `print(list_name)`
-
-
-#### Diagram (Text-based)
-
-Original: `[1][2][3][4][5]`
-Reversed: `[5][4][3][2][1]`
-
-#### Python Code
-
-```python
-# Functionality: Reverses a list and prints both original and reversed lists.
-def reverse_list(lst):
-    """
-    Prints the original and reversed lists.
-    :param lst: List of integers
-    :return: None
-    """
-    print("Original list:", lst)
-    reversed_lst = lst[::-1]
-    print("Reversed list:", reversed_lst)
-
-# Example usage
-numbers = [1, 2, 3, 4, 5]
-reverse_list(numbers)
-```
-
-
-#### Sample Input and Output
-
-Input: `[1][2][3][4][5]`
-Output:
-
-```
-Original list: [1, 2, 3, 4, 5]
-Reversed list: [5, 4, 3, 2, 1]
-```
-
-
-#### Output Format
-
-Print both lists clearly labeled as shown.
-
-***
-
-### Question 2 (Option 2): Write a python program to count and display the total number of vowels, consonants, digits, and special characters in a string.
-
-#### Approach
-
-- Read an input string.
-- Loop through each character and use `isalpha()`, `isdigit()`, and membership testing to check its type.
-- Count the number of vowels, consonants, digits, and special characters.
-
-
-#### Syntax Definitions
-
-- **isalpha():** Checks if character is a letter.
-- **isdigit():** Checks if character is a digit.
-- **Membership Test:** `char in 'aeiouAEIOU'`
-- **For Loop:** `for char in string:`
-
-
-#### Diagram (Text-based)
-
-Input string: `"Hello@2021!"`
-Vowels: `e, o` (2)
-Consonants: `H, l, l` (3)
-Digits: `2, 0, 2, 1` (4)
-Special Characters: `@, !` (2)
-
-#### Python Code
-
-```python
-# Functionality: Counts vowels, consonants, digits, and special characters in a string.
-def count_types(s):
-    """
-    Counts vowels, consonants, digits, and special characters in a string.
-    :param s: Input string
-    :return: None (prints counts)
-    """
-    vowels = "aeiouAEIOU"
-    v_count = c_count = d_count = s_count = 0
-    for char in s:
-        if char.isalpha():
-            if char in vowels:
-                v_count += 1
-            else:
-                c_count += 1
-        elif char.isdigit():
-            d_count += 1
-        else:
-            s_count += 1
-    print("Vowels:", v_count)
-    print("Consonants:", c_count)
-    print("Digits:", d_count)
-    print("Special Characters:", s_count)
-
-# Example usage
-input_str = "Hello@2021!"
-count_types(input_str)
-```
-
-
-#### Sample Input and Output
-
-Input: `"Hello@2021!"`
-Output:
-
-```
-Vowels: 2
-Consonants: 3
-Digits: 4
-Special Characters: 2
-```
-
-
-#### Output Format
-
-Print the category counts, each on a new line with labels as shown above.
-
-***
-
-This covers everything from Slip 2 in a clear, exam-ready coding format! If you want further slips or additional explanation, just ask.
-
----
-
-# follow this format
-
-Here are the complete solutions for **Slip 2** using the standardized format:
-
 ***
 
 ## SLIP 2
-
+***
 ### Question 1: Write a program which accepts 6 integer values and prints DUPLICATES if any of the values entered are duplicates otherwise it prints ALL UNIQUE.
 
 #### Approach:
@@ -1732,11 +290,7 @@ print(check_duplicates_test(test_nums))
 Input: `[32][10][45][90][45][6]`
 Output: `DUPLICATES`
 
-#### Expected Output Format:
 
-Print exactly `DUPLICATES` or `ALL UNIQUE` in uppercase letters.
-
-***
 
 ### Question 2 (Option 1): Write a python program to reverse the list and print both original and reversed lists using lists.
 
@@ -1806,11 +360,7 @@ Reversed list: [5, 4, 3, 2, 1]
 ```
 
 
-#### Expected Output Format:
 
-Print both lists on separate lines with clear labels as shown above.
-
-***
 
 ### Question 2 (Option 2): Write a python program to count and display the total number of vowels, consonants, digits, and special characters in a string.
 
@@ -1925,25 +475,10 @@ Digits: 4
 Special Characters: 2
 ```
 
-
-#### Expected Output Format:
-
-Print each category count on separate lines with labels as shown above.
-
-***
-
-This format provides comprehensive solutions ready for examination use. Would you like me to continue with other slips using this same detailed format?
-
----
-
-# slip 3
-
-Here are the complete solutions for **Slip 3**, formatted for exam use:
-
 ***
 
 ## SLIP 3
-
+***
 ### Question 1: Write a Python program to add and remove operation on set.
 
 #### Approach:
@@ -2009,11 +544,6 @@ After removing 5: {3, 7}
 ```
 
 
-#### Expected Output Format:
-
-Print the set after each operation with clear labels.
-
-***
 
 ### Question 2 (Option 1): Write a python program to perform the following operations on Binary Search Tree:
 
@@ -2123,11 +653,7 @@ Non-leaf node count: 3
 ```
 
 
-#### Expected Output Format:
 
-Print the traversals with clear labels. Print non-leaf count as `Non-leaf node count: <count>`.
-
-***
 
 ### Question 2 (Option 2): Python program for dynamic implementation of Singly Linked List to perform Insert and Display operations.
 
@@ -2196,30 +722,12 @@ sll.display()
 Input: `10, 20, 30`
 Output: `Linked List: 10 20 30`
 
-#### Expected Output Format:
-
-Print all linked list elements on one line, space-separated, with a label.
-
-***
-
-If you need more slips or more example runs, just ask!
-<span style="display:none">[^14_1]</span>
-
-<div align="center">⁂</div>
-
-[^14_1]: CA-505-MJP-Python-Programming-and-Data-Structures-1-1.pdf
-
 
 ---
 
-# slip 4
-
-Here are the complete solutions for **Slip 4** in your standardized format:
-
-***
 
 ## SLIP 4
-
+***
 ### Question 1: Write a Python program to find maximum and the minimum value in a set.
 
 #### Approach:
@@ -2280,11 +788,7 @@ Min value: 5
 ```
 
 
-#### Expected Output Format:
 
-Print both values, each on their own line and labeled as shown above.
-
-***
 
 ### Question 2 (Option 1): Write a python program to perform following operations on Binary Search Tree
 
@@ -2394,11 +898,7 @@ Leaf node count: 4
 ```
 
 
-#### Expected Output Format:
 
-Print each traversal on its own line, labeled. Print leaf node count labeled on its own line.
-
-***
 
 ### Question 2 (Option 2): Python program to create a linked list in the sorted order.
 
@@ -2467,29 +967,13 @@ linked_list.display()
 Input: `30, 10, 50, 40, 20`
 Output: `Sorted Linked List: 10 20 30 40 50`
 
-#### Expected Output Format:
 
-Print all linked list elements in sorted order, labeled and space-separated.
-
-***
-
-If you need next slip’s solutions, just ask for the slip number!
-<span style="display:none">[^15_1]</span>
-
-<div align="center">⁂</div>
-
-[^15_1]: CA-505-MJP-Python-Programming-and-Data-Structures-1-1.pdf
 
 
 ---
 
-# slip 5
-
-Here are the complete solutions for **Slip 5**, formatted for exam use:
-
-***
-
 ## SLIP 5
+***
 
 ### Question 1: Write a python program to create an array of n integers and display the array elements. Access individual elements through indexes.
 
@@ -2556,11 +1040,7 @@ arr[^16_3] = 9
 ```
 
 
-#### Expected Output Format:
 
-Display the array as a whole, then each element on its own line with the index.
-
-***
 
 ### Question 2 (Option 1): Write a python program to perform following operations on BST
 
@@ -2697,11 +1177,7 @@ Postorder traversal after deletion:
 ```
 
 
-#### Expected Output Format:
 
-Print all traversals, each labeled and space-separated.
-
-***
 
 ### Question 2 (Option 2): Write a python program for implementation of Doubly Linked List to perform Insert and Display operations.
 
@@ -2785,31 +1261,10 @@ Output:
 Forward: 10 20 30 
 Backward: 30 20 10 
 ```
-
-
-#### Expected Output Format:
-
-Print forward and backward display each labeled, space-separated.
-
-***
-
-If you need another slip, specify the number!
-
-<div align="center">⁂</div>
-
-[^16_1]: CA-505-MJP-Python-Programming-and-Data-Structures-1-1.pdf
-
-
----
-
-# slip 6
-
-Here are the complete solutions for **Slip 6** in the required format:
-
 ***
 
 ## SLIP 6
-
+***
 ### Question 1: Write a python program to get the number of occurrences of specified elements in an array.
 
 #### Approach:
@@ -2869,12 +1324,6 @@ Output:
 Number of occurrences of 2: 3
 ```
 
-
-#### Expected Output Format:
-
-Label and print the result with the queried element.
-
-***
 
 ### Question 2 (Option 1): Write a python program to perform following operations on Binary Search Tree
 
@@ -2971,11 +1420,7 @@ Total number of nodes: 7
 ```
 
 
-#### Expected Output Format:
 
-Print traversals and node count, each labeled and space-separated.
-
-***
 
 ### Question 2 (Option 2): Python program to create doubly linked list and search the given node in the Linked list.
 
@@ -3067,29 +1512,10 @@ Node 40 not found in linked list.
 ```
 
 
-#### Expected Output Format:
-
-Display list labeled and print result of the search for each queried value.
-
-***
-
-If you need solutions for the next slip, specify the slip number!
-
-<div align="center">⁂</div>
-
-[^17_1]: CA-505-MJP-Python-Programming-and-Data-Structures-1-1.pdf
-
-
----
-
-# slip 7
-
-Here are the complete solutions for **Slip 7** formatted for exam use:
-
 ***
 
 ## SLIP 7
-
+***
 ### Question 1: Write a python program to reverse the order of the items in the array.
 
 #### Approach:
@@ -3143,12 +1569,6 @@ Original array: [1, 2, 3, 4, 5]
 Reversed array: [5, 4, 3, 2, 1]
 ```
 
-
-#### Expected Output Format:
-
-Print both original and reversed array, labeled and in list form.
-
-***
 
 ### Question 2 (Option 1): Write a python program to perform following operations on BST – Create, Display.
 
@@ -3225,12 +1645,6 @@ Output:
 BST Inorder display: 20 30 40 50 60 70 80 
 ```
 
-
-#### Expected Output Format:
-
-Print the inorder traversal, labeled and space-separated.
-
-***
 
 ### Question 2 (Option 2): Write a python program to create singly linked list and search the given node in the Linked list.
 
@@ -3327,30 +1741,10 @@ Node 20 found at position: 1
 Node 40 not found in Linked List.
 ```
 
-
-#### Expected Output Format:
-
-Display list labeled, then print search result for each query.
-
-***
-
-If you need the next slip, just say the number!
-
-<div align="center">⁂</div>
-
-[^18_1]: CA-505-MJP-Python-Programming-and-Data-Structures-1-1.pdf
-
-
----
-
-# slip 8
-
-Here are the complete solutions for **Slip 8**, formatted for practical examination:
-
 ***
 
 ## SLIP 8
-
+***
 ### Question 1: Write a python program to find the sum of all the elements in a list.
 
 #### Approach:
@@ -3397,11 +1791,6 @@ sum_of_list(numbers)
 Input: `[^19_2][^19_4][^19_5][^19_7]`
 Output: `Sum of all elements: 18`
 
-#### Expected Output Format:
-
-Print result labeled as above.
-
-***
 
 ### Question 2 (Option 1): Write a python program to perform following operations on BST:
 
@@ -3525,13 +1914,6 @@ Inorder: 10 30 40 50 60 70
 Postorder: 30 10 50 70 60 40 
 ```
 
-
-#### Expected Output Format:
-
-Label and space-separate each traversal.
-
-***
-
 ### Question 2 (Option 2): Write a python program to create a singly linked list and reverse the Linked list.
 
 #### Approach:
@@ -3615,31 +1997,10 @@ Original list: 10 20 30 40
 Reversed list: 40 30 20 10 
 ```
 
-
-#### Expected Output Format:
-
-Print labeled lists before and after reversal, space-separated.
-
-***
-
-If you need the next slip, just say the number!
-<span style="display:none">[^19_1]</span>
-
-<div align="center">⁂</div>
-
-[^19_1]: CA-505-MJP-Python-Programming-and-Data-Structures-1-1.pdf
-
-
----
-
-# slip 9
-
-Here are the complete solutions for **Slip 9**:
-
 ***
 
 ## SLIP 9
-
+***
 ### Question 1: Write a python function to calculate the factorial of a number. The function accepts the number as an argument.
 
 #### Approach:
@@ -3688,12 +2049,6 @@ print(f"Factorial of {num}:", factorial(num))
 
 Input: `5`
 Output: `Factorial of 5: 120`
-
-#### Expected Output Format:
-
-Label and print result, as above.
-
-***
 
 ### Question 2 (Option 1): Write a program to search an element using Linear Search.
 
@@ -3746,11 +2101,7 @@ List: `[^20_7][^20_12][^20_8][^20_5]`
 Search: `8`
 Output: `Element 8 found at index 2`
 
-#### Expected Output Format:
 
-Label and print the search result.
-
-***
 
 ### Question 2 (Option 2): Write a program to calculate indegree of a graph using adjacency matrix.
 
@@ -3828,31 +2179,10 @@ Indegree of node 1: 2
 Indegree of node 2: 1
 ```
 
-
-#### Expected Output Format:
-
-Print indegree for each node, as above.
-
-***
-
-If you need the next slip, just specify the number!
-<span style="display:none">[^20_1]</span>
-
-<div align="center">⁂</div>
-
-[^20_1]: CA-505-MJP-Python-Programming-and-Data-Structures-1-1.pdf
-
-
----
-
-# slip 10
-
-Here are the complete solutions for **Slip 10**:
-
 ***
 
 ## SLIP 10
-
+***
 ### Question 1: Write a Python script to generate and print a dictionary that contains a number between 1 and n in the form x: x*x.
 
 #### Approach:
@@ -3908,11 +2238,7 @@ generate_square_dict(5)
 Input: `n = 5`
 Output: `{1: 1, 2: 4, 3: 9, 4: 16, 5: 25}`
 
-#### Expected Output Format:
 
-Print dictionary as shown above.
-
-***
 
 ### Question 2 (Option 1): Write a program to search an element using Binary Search.
 
@@ -3973,11 +2299,6 @@ else:
 List: `[^21_1][^21_3][^21_5][^21_7][^21_9]`, Search: `5`
 Output: `Element 5 found at index 2`
 
-#### Expected Output Format:
-
-Print result labeled as above.
-
-***
 
 ### Question 2 (Option 2): Write a Python program to calculate outdegree of a graph using adjacency matrix.
 
@@ -4050,30 +2371,10 @@ Outdegree of node 1: 2
 Outdegree of node 2: 1
 ```
 
-
-#### Expected Output Format:
-
-Print outdegree for each node as above.
-
-***
-
-If you want the next slip, just say the number!
-
-<div align="center">⁂</div>
-
-[^21_1]: CA-505-MJP-Python-Programming-and-Data-Structures-1-1.pdf
-
-
----
-
-# slip 11
-
-Here are the complete solutions for **Slip 11**, formatted for exams:
-
 ***
 
 ## SLIP 11
-
+***
 ### Question 1: Write a program to generate Fibonacci numbers using a function.
 
 #### Approach:
@@ -4122,11 +2423,6 @@ fibonacci(7)
 Input: `n = 7`
 Output: `Fibonacci sequence: [^22_0][^22_1][^22_1][^22_2][^22_3][^22_5][^22_8]`
 
-#### Expected Output Format:
-
-Label and print the sequence as a list.
-
-***
 
 ### Question 2 (Option 1): Write a Python program to sort given numbers using Bubble Sort algorithm.
 
@@ -4174,11 +2470,7 @@ bubble_sort(numbers)
 Input: `[^22_5][^22_2][^22_8][^22_4]`
 Output: `Sorted list: [^22_2][^22_4][^22_5][^22_8]`
 
-#### Expected Output Format:
 
-Label and print the sorted list.
-
-***
 
 ### Question 2 (Option 2): Write a Python class named Circle constructed by a radius and two methods which will compute the area and the perimeter of a circle.
 
@@ -4236,29 +2528,10 @@ Perimeter: 31.41592653589793
 ```
 
 
-#### Expected Output Format:
-
-Label and print area and perimeter.
-
-***
-
-If you want Slip 12, just say the number!
-
-<div align="center">⁂</div>
-
-[^22_1]: CA-505-MJP-Python-Programming-and-Data-Structures-1-1.pdf
-
-
----
-
-# 12
-
-Here are the complete solutions for **Slip 12**, formatted for exams:
-
 ***
 
 ## SLIP 12
-
+***
 ### Question 1: Write a Python script to generate and print a dictionary that contains a number between 1 and n in the form x: x*x.
 
 _Sample: For n = 5, Expected Output: {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}_
@@ -4307,11 +2580,6 @@ generate_square_dict(5)
 Input: `n = 5`
 Output: `{1: 1, 2: 4, 3: 9, 4: 16, 5: 25}`
 
-#### Expected Output Format:
-
-Print full dictionary, as above.
-
-***
 
 ### Question 2 (Option 1): Write a Python program to implement sorting Merge Sort algorithm.
 
@@ -4380,11 +2648,7 @@ print("Sorted array:", numbers)
 Input: `[^23_8][^23_6][^23_2][^23_4][^23_1]`
 Output: `Sorted array: [^23_1][^23_2][^23_4][^23_6][^23_8]`
 
-#### Expected Output Format:
 
-Print sorted list, labeled.
-
-***
 
 ### Question 2 (Option 2): Write a Python program to create a class representing a shopping cart.
 
@@ -4445,30 +2709,10 @@ Items after removal: {'Milk': 30}
 Total price: 30
 ```
 
-
-#### Expected Output Format:
-
-Display cart's contents and total price as shown.
-
-***
-
-If you want Slip 13, just say the number!
-
-<div align="center">⁂</div>
-
-[^23_1]: CA-505-MJP-Python-Programming-and-Data-Structures-1-1.pdf
-
-
----
-
-# 13
-
-Here are the solutions for **Slip 13**, formatted for practicals/exam:
-
 ***
 
 ## SLIP 13
-
+***
 ### Question 1: Write a Python script to sort ascending and descending a dictionary by value.
 
 #### Approach:
@@ -4522,12 +2766,6 @@ Descending: [('a', 4), ('c', 3), ('b', 1)]
 ```
 
 
-#### Expected Output Format:
-
-Two labeled lists, tuples of key-value pairs, as above.
-
-***
-
 ### Question 2 (Option 1): Write a Python program to search an element in an integer array using Binary Search.
 
 #### Approach:
@@ -4579,11 +2817,7 @@ else:
 Array: `[^24_2][^24_5][^24_8][^24_11][^24_15]`; Search: `8`
 Output: `Element 8 found at index 2`
 
-#### Expected Output Format:
 
-Labeled index.
-
-***
 
 ### Question 2 (Option 2): Write a Python program to implement sorting Quick Sort algorithm.
 
@@ -4629,29 +2863,11 @@ print("Sorted array:", sorted_nums)
 Input: `[^24_14][^24_8][^24_2][^24_7]`
 Output: `Sorted array: [^24_2][^24_7][^24_8][^24_14]`
 
-#### Expected Output Format:
-
-Labeled sorted list.
-
-***
-
-If you want Slip 14 or next, just say the number!
-
-<div align="center">⁂</div>
-
-[^24_1]: CA-505-MJP-Python-Programming-and-Data-Structures-1-1.pdf
-
-
----
-
-# 14
-
-Here are the solutions for **Slip 14**, formatted for practical exams:
 
 ***
 
 ## SLIP 14
-
+***
 ### Question 1: Write a Python script to generate and print a dictionary that contains a number between 1 and n in the form x: x*x.
 
 #### Approach:
@@ -4696,11 +2912,6 @@ generate_square_dict(4)
 Input: `n = 4`
 Output: `{1: 1, 2: 4, 3: 9, 4: 16}`
 
-#### Expected Output Format:
-
-Print dictionary.
-
-***
 
 ### Question 2 (Option 1): Write a Python program to implement sorting Insertion Sort algorithm.
 
@@ -4745,11 +2956,6 @@ insertion_sort(numbers)
 Input: `[^25_8][^25_4][^25_1]`
 Output: `Sorted array: [^25_1][^25_4][^25_8]`
 
-#### Expected Output Format:
-
-Label and print sorted array.
-
-***
 
 ### Question 2 (Option 2): Write a program to calculate indegree of a graph.
 
@@ -4814,30 +3020,10 @@ Indegree of node 1: 2
 Indegree of node 2: 1
 ```
 
-
-#### Expected Output Format:
-
-Print indegree for each node labeled.
-
-***
-
-If you want Slip 15, just say the number!
-
-<div align="center">⁂</div>
-
-[^25_1]: CA-505-MJP-Python-Programming-and-Data-Structures-1-1.pdf
-
-
----
-
-# 15
-
-Here are the solutions for **Slip 15**, formatted for the exam:
-
 ***
 
 ## SLIP 15
-
+***
 ### Question 1: Write a Python program to combine two dictionaries adding values for common keys.
 
 _Sample: d1 = {'a': 100, 'b': 200, 'c': 300}; d2 = {'a': 300, 'b': 200, 'd': 400}_
@@ -4893,11 +3079,7 @@ d2 = {'a': 300, 'b': 200, 'd': 400}
 
 Output: `Counter({'a': 400, 'b': 400, 'd': 400, 'c': 300})`
 
-#### Expected Output Format:
 
-Print the combined dictionary result.
-
-***
 
 ### Question 2 (Option 1): Write a program to calculate outdegree of a graph using adjacency matrix.
 
@@ -4962,12 +3144,6 @@ Outdegree of node 2: 2
 ```
 
 
-#### Expected Output Format:
-
-Print each node’s outdegree.
-
-***
-
 ### Question 2 (Option 2): Write a Python class named Rectangle constructed by a length and width and two methods which will compute the area and perimeter.
 
 #### Approach:
@@ -5023,32 +3199,10 @@ Output:
 Area: 20
 Perimeter: 18
 ```
-
-
-#### Expected Output Format:
-
-Label and print area and perimeter.
-
-***
-
-If you want Slip 16, just say the number!
-<span style="display:none">[^26_1]</span>
-
-<div align="center">⁂</div>
-
-[^26_1]: CA-505-MJP-Python-Programming-and-Data-Structures-1-1.pdf
-
-
----
-
-# 16
-
-Here are the solutions for **Slip 16**, formatted for exam use:
-
 ***
 
 ## SLIP 16
-
+***
 ### Question 1: Write a Python program to create a list of tuples with the first element as the number and second element as the square of the number, also display original list in reverse. (10 marks)
 
 #### Approach:
@@ -5095,12 +3249,6 @@ List: [(1, 1), (2, 4), (3, 9), (4, 16), (5, 25)]
 Reversed list: [(5, 25), (4, 16), (3, 9), (2, 4), (1, 1)]
 ```
 
-
-#### Expected Output Format:
-
-Print both lists, labeled.
-
-***
 
 ### Question 2 (Option 1): Write a python code for static implementation of stack. (20 marks)
 
@@ -5188,12 +3336,6 @@ Stack: [^27_10]
 ```
 
 
-#### Expected Output Format:
-
-Print each stack action/result, labeled.
-
-***
-
 ### Question 2 (Option 2): Write a Python program for Evaluation of postfix expression. (20 marks)
 
 #### Approach:
@@ -5251,30 +3393,10 @@ eval_postfix("2 3 1 * + 9 -")
 Input: `"2 3 1 * + 9 -"`
 Output: `Result: -4`
 
-#### Expected Output Format:
-
-Print result labeled.
-
-***
-
-If you want Slip 17, just say the number!
-<span style="display:none">[^27_1]</span>
-
-<div align="center">⁂</div>
-
-[^27_1]: CA-505-MJP-Python-Programming-and-Data-Structures-1-1.pdf
-
-
----
-
-# 17
-
-Here are the complete solutions for **Slip 17**, formatted for exams:
-
 ***
 
 ## SLIP 17
-
+***
 ### Question 1: Write a Python Program to Calculate the Average of Numbers in a Given List.
 
 #### Approach:
@@ -5313,12 +3435,6 @@ calculate_average(numbers)
 
 Input: `[^28_10][^28_20][^28_30][^28_40][^28_50]`
 Output: `Average: 30.0`
-
-#### Expected Output Format:
-
-Print labeled average.
-
-***
 
 ### Question 2 (Option 1): Write a python code for static implementation of queue.
 
@@ -5401,12 +3517,6 @@ Queue: [^28_20]
 ```
 
 
-#### Expected Output Format:
-
-Labeled results for each operation.
-
-***
-
 ### Question 2 (Option 2): Write a python code for dynamic implementation of Stack to perform following operations Init, Push, Pop, IsEmpty, IsFull.
 
 #### Approach:
@@ -5482,30 +3592,10 @@ Stack: [^28_5]
 ```
 
 
-#### Expected Output Format:
-
-Labeled stack actions/results.
-
-***
-
-If you want Slip 18, just say the number!
-<span style="display:none">[^28_1]</span>
-
-<div align="center">⁂</div>
-
-[^28_1]: CA-505-MJP-Python-Programming-and-Data-Structures-1-1.pdf
-
-
----
-
-# 19
-
-Here are the solutions for **Slip 19**, in the requested exam format:
-
 ***
 
 ## SLIP 19
-
+***
 ### Question 1: Write a Python program to get the 5th element from front and 5th element from last of a tuple. (10 marks)
 
 #### Approach:
@@ -5556,12 +3646,6 @@ Output:
 5th element from last: 44
 ```
 
-
-#### Expected Output Format:
-
-Print result labeled.
-
-***
 
 ### Question 2 (Option 1): Write a python code for simple implementation of priority queue. (20 marks)
 
@@ -5628,12 +3712,6 @@ Serving: (1, 'banana')
 Priority Queue: [(2, 'apple'), (3, 'cherry')]
 ```
 
-
-#### Expected Output Format:
-
-Label and print queue at each step.
-
-***
 
 ### Question 2 (Option 2): Write a python code for dynamic implementation of Stack to perform following operations Init, Push, Pop, IsEmpty, IsFull. (20 marks)
 
@@ -5709,32 +3787,10 @@ Stack: [11, 22, 33]
 Popped 33
 Stack: [11, 22]
 ```
-
-
-#### Expected Output Format:
-
-Label and print stack after each operation.
-
-***
-
-If you want Slip 20, just say the number!
-<span style="display:none">[^29_1]</span>
-
-<div align="center">⁂</div>
-
-[^29_1]: CA-505-MJP-Python-Programming-and-Data-Structures-1-1.pdf
-
-
----
-
-# 20
-
-Here are the complete solutions for **Slip 20**, formatted for practical exams:
-
 ***
 
 ## SLIP 20
-
+***
 ### Question 1: Write a program to display the following pattern.
 
 _1 2 3 4 5 6 7 8 9 10_
@@ -5772,11 +3828,6 @@ print_pattern()
 
 Output: `1 2 3 4 5 6 7 8 9 10`
 
-#### Expected Output Format:
-
-Print all numbers space-separated.
-
-***
 
 ### Question 2 (Option 1): Write a code for static stack implementation in Python.
 
@@ -5858,11 +3909,6 @@ Stack: [2, 4]
 ```
 
 
-#### Expected Output Format:
-
-Label all operations.
-
-***
 
 ### Question 2 (Option 2): Write a python code for dynamic implementation of linear Queue to perform following operations init, enqueue, dequeue, isEmpty, isFull.
 
@@ -5938,32 +3984,10 @@ Queue: [11, 22, 33]
 Dequeued 11
 Queue: [22, 33]
 ```
-
-
-#### Expected Output Format:
-
-Label queue operations and list state.
-
-***
-
-If you need Slip 21 or next, just specify!
-<span style="display:none">[^30_1]</span>
-
-<div align="center">⁂</div>
-
-[^30_1]: CA-505-MJP-Python-Programming-and-Data-Structures-1-1.pdf
-
-
----
-
-# 21
-
-Here are the solutions for **Slip 21**, formatted for practical/exam use:
-
 ***
 
 ## SLIP 21
-
+***
 ### Question 1: Write a python program which accepts 6 integer values and prints DUPLICATES if any of the values entered are duplicates otherwise it prints ALL UNIQUE.
 
 _Example: Let 6 integers are 32, 10, 45, 90, 45, 6 then output DUPLICATES to be printed._
@@ -6132,27 +4156,10 @@ Reversed string: nohtyp
 Not a palindrome.
 ```
 
-
-***
-
-If you need Slip 22 or further, just say the number!
-<span style="display:none">[^31_1]</span>
-
-<div align="center">⁂</div>
-
-[^31_1]: CA-505-MJP-Python-Programming-and-Data-Structures-1-1.pdf
-
-
----
-
-# 22
-
-Here are the solutions for **Slip 22**, formatted for exams:
-
 ***
 
 ## SLIP 22
-
+***
 ### Question 1: Write a Python program to find repeated items in a tuple. (10 marks)
 
 #### Approach:
@@ -6351,24 +4358,8 @@ Queue: [None, 20, 30]
 
 ***
 
-If you want Slip 23, just say the number!
-<span style="display:none">[^32_1]</span>
-
-<div align="center">⁂</div>
-
-[^32_1]: CA-505-MJP-Python-Programming-and-Data-Structures-1-1.pdf
-
-
----
-
-# 24
-
-Here are the solutions for **Slip 24**, formatted for practical/exam use:
-
-***
-
 ## SLIP 24
-
+***
 ### Question 1: Write a Python Program to Calculate the Sum of Numbers in a List. (10 Marks)
 
 #### Approach:
@@ -6500,24 +4491,8 @@ Outdegree of node 2: 0
 
 ***
 
-If you want Slip 25 or next, just say the number!
-<span style="display:none">[^33_1]</span>
-
-<div align="center">⁂</div>
-
-[^33_1]: CA-505-MJP-Python-Programming-and-Data-Structures-1-1.pdf
-
-
----
-
-# 23
-
-Here are the solutions for **Slip 23**, formatted for practical/exam use:
-
-***
-
 ## SLIP 23
-
+***
 ### Question 1: Write a Python Program to Calculate the Average of Numbers in a Given List. (10 marks)
 
 #### Approach:
@@ -6683,24 +4658,8 @@ Not a palindrome.
 
 ***
 
-If you want Slip 25 (last), just say the number!
-<span style="display:none">[^34_1]</span>
-
-<div align="center">⁂</div>
-
-[^34_1]: CA-505-MJP-Python-Programming-and-Data-Structures-1-1.pdf
-
-
----
-
-# 25
-
-Here are the solutions for **Slip 25**, formatted for practical exams:
-
-***
-
 ## SLIP 25
-
+***
 ### Question 1: Write a python program to get the number of occurrences of specified elements in an array. (10 Marks)
 
 #### Approach:
@@ -6826,10 +4785,4 @@ Perimeter: 43.982297150257104
 
 ***
 
-If you need further slips, just specify!
-<span style="display:none">[^35_1]</span>
-
-<div align="center">⁂</div>
-
-[^35_1]: CA-505-MJP-Python-Programming-and-Data-Structures-1-1.pdf
 
